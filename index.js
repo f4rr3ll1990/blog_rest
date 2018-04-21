@@ -180,8 +180,8 @@ MongoClient.connect(uri, (err, client) => {
 		return console.log(err)
 	}
 	db = client.db("posts").collection("posts");
-	app.listen(3013, () => {
-		console.log('API Started on 3013 port')
+	app.listen(8080, () => {
+		console.log('API Started on 8080 port')
 
 	});
 });
